@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./Ejercicio11.js"></script>
+    <title>Ejercicio 11 - Calculadora</title>
+</head>
+<body>
+    <form name="calc">
+        <input type="button" name="operando1" value="VALOR 1" onclick="ingresarvalor ()">
+        <br>
+        <input type="Button" name="" value="SUMAR" onclick="calcula('+')">
+        <input type="Button" name="" value="RESTAR " onclick="calcula('-')">
+        <input type="Button" name="" value=" MULTIPLICAR " onclick="calcula('*')">
+        <input type="Button" name="" value="DIVIDIR " onclick="calcula('/')">
+        <br>
+        <input type="text" name="resultado" value="0" onclick="resultado">
+        </form>
+
+        <script>
+
+            function ingresarvalor () {
+                var operador1 = prompt ("ingrese un valor");
+                var operador2 = prompt ("ingrese segundo valor");
+                return operador1, operador2;
+            }
+
+            function calcula(operacion, operador1, operador2){
+                // var operando1 = document.calc.operando1.value // 
+                // var operando2 = document.calc.operando2.value //
+                var result = eval(operador1 + operacion + operador2)
+                document.calc.resultado.value = result
+            }
+            </script> 
+
+</body>
+</html>
