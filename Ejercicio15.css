@@ -1,0 +1,26 @@
+main {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.carrito {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.carrito__producto {
+    color: #403b3b;
+}
+carrito__imagen {
+    width: 15%;
+    align-items: baseline;
+}
+
+.carrito__precio, carrito__cantidad {
+   font-size: 12px;
+}
+

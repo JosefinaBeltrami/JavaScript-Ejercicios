@@ -1,0 +1,31 @@
+main {
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.noticia {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.noticia__titulo {
+    color: #403b3b;
+}
+.noticia__imagen {
+    width: 40%;
+    align-items: baseline;
+}
+
+.noticia__autor {
+   font-size: 12px;
+}
+
+.noticia__nota {
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}

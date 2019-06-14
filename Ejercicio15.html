@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Ejercicio15.css">
+    <script src="./Ejercicio15.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<main>
+    <section class="main__columna_izq" id="main__col_izq">
+        <article class="carrito" id="carrito">
+            <h2 class="carrito__producto">
+            Primer Producto
+            </h2>
+            <h2 class="carrito__cantidad">
+            Cantidad del Producto: 2
+            </h2>
+            <img class="carrito__imagen" src="./imgs/5710335406_4_1_8.jpg" alt="">
+            <p class="carrito__precio"> $20 </p>
+        </article>
+    </section>
+    <section class="main__columna_der">
+        <article class="crear_carrito">
+            <form name="incluir">
+                <input type="text" value="Incluir el Producto" class="crear_carrito_item" id="Producto_text">
+                <input type="text" value="Indicar cantidad" class="crear_carrito_item" id="Cantidad_text">
+                <input type="text" value="URL de la foto del producto" class="crear_carrito_item" id="Imagen_text">
+                <input type="text" value="Precio del producto" class="crear_carrito_item" id="Precio_text">
+                <input type="button" value="Añadir al Carrito" onclick="javascript:incluirarticulo();">
+            </form>               
+        </article>
+    </section>
+</main>    
+</body>
+</html>
